@@ -1,1 +1,5 @@
-I had a really hard time with learning SCSS. It really confusesd me with the examples and global usage of 
+I had a really hard time with learning SCSS. It really confusesd me with the examples and global usage
+then I watched a video that explained that I can just use css and when I'm making sub codes I would need to nest it making it look cleaner.
+
+I have separtated my animations and styles away from each other allowing it to be simpler for navigations 
+I have nested my animations so it looks cleaner
