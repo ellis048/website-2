@@ -1,32 +1,45 @@
 #cat {
-  display: block;
   margin-left: auto;
-  margin-right: auto30px;
-  animation: cat 4s infinite;
+  margin-right: auto;
   margin-top: 20px;
+  animation: cat 4s infinite;
 }
-
 @keyframes cat {
   0% {
-    rotate: 0deg;
+    transform: rotate(0deg);
     margin-left: 100px;
   }
   50% {
-    rotate: 360deg;
+    transform: rotate(360deg);
     margin-left: 0;
   }
   100% {
-    rotate: 0deg;
+    transform: rotate(0deg);
     margin-left: 100px;
   }
 }
+
 #author {
-  justify-content: center;
-  width: auto;
+  position: relative;
+}
+#author img {
+  display: block;
+  max-width: 100%;
   height: auto;
-  left: 50%;
-  margin-left: -40px;
-  overflow: hidden;
+}
+
+.button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.button:hover {
+  background-color: #2980b9;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=animations.css.map */
