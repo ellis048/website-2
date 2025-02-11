@@ -1,0 +1,34 @@
+//animation
+#cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto+30px;
+    animation: cat 4s infinite;
+    margin-top: 20px;
+  }
+  
+      @keyframes cat {
+        0% {
+          rotate: 0deg;
+          margin-left: 100px;
+        }
+  
+        50% {
+          rotate: 360deg;
+          margin-left: 0;  // Ensuring smooth transition instead of margin-right
+        }
+  
+        100% {
+          rotate: 0deg;
+          margin-left: 100px;
+        }
+    }
+
+#author {
+    justify-content: center;
+    width: auto;
+    height: auto;
+    left: 50%;
+    margin-left: -40px;
+    overflow: hidden;
+}
